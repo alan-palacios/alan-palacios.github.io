@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import ButtonOutline from './components/button-outline';
+import HomeTitle from './components/home-title';
+import Navbar from './components/navbar';
+import Projects from './components/projects';
+import arrowDown from './images/arrow-down.png';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-sky-stars bg-fixed bg-cover  h-full">
+      <Navbar/>
+      <div className="flex mt-40">
+        <HomeTitle/>
+      </div>
+      <ButtonOutline/>
+      <div className="mt-10">
+        <img src={arrowDown} alt="arrow down" className="m-auto w-10"/>
+      </div>
+      <Projects/>
     </div>
   );
 }
