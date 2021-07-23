@@ -21,12 +21,19 @@ module.exports = {
       zIndex:{
         '-10':'-10',
         '-20':'-20',
+      },
+      transitionProperty:{
+        'width':'width'
+      },
+      screens:{
+        'media-hover': {'raw': '(hover:hover)'}
       }
     },
   },
   variants: {
     extend: {
       display: ['group-hover'],
+      width: ['responsive', 'hover']
     },
   },
   plugins: [],

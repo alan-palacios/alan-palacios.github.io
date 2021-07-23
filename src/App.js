@@ -60,16 +60,15 @@ function App() {
         </div>
       </div>
 
-      <div id="Projects" className="flex mt-20 min-h-screen">
+      <div id="Projects" className="flex pt-20 min-h-screen">
         <Projects />
       </div>
 
-      <div id="Contact" className="flex mt-20">
+      <div id="Contact" className="flex pt-20 min-h-screen relative">
         <Contact/>
-      </div>
-
-      <div className="mt-36 mb-5">
-        <Footer/>
+        <div className="absolute bottom-0 inset-x-0 pb-5">
+          <Footer/>
+        </div>
       </div>
     </div>
   );
