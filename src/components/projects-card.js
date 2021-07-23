@@ -13,8 +13,8 @@ function ProjectCard(props) {
                       <img alt="github repo" src={githubIcon} className="absolute inset-0 m-auto
                       hover:-translate-y-1 transition duration-200 transform"/>
                     </a>
-                    <p className="m-auto mb-0  block p-8 pb-3 align-bottom font-light 
-                          md:mb-5">
+                    <p className="m-auto mb-0  block p-10 pb-3 align-bottom font-light 
+                          md:mb-5 md:text-lg">
                       {props.description}
                     </p>                                
 

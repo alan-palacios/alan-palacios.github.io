@@ -18,5 +18,35 @@
 		"tecnologies":[
 			"js", "html", "css", "node", "mongo", "react"
 		]
+	},
+	{
+		"name":"Spark1",
+		"description":"Alfred-based application for quick access to tasks",
+		"repo": "https://github.com/alan-palacios/alan-palacios.github.io",
+		"imgSrc": "spark.gif",
+		"page": "",
+		"tecnologies":[
+			"js", "html", "css", "node", "mongo", "react"
+		]
+	},
+	{
+		"name":"Spark2",
+		"description":"Alfred-based application for quick access to tasks",
+		"repo": "https://github.com/alan-palacios/alan-palacios.github.io",
+		"imgSrc": "spark.gif",
+		"page": "",
+		"tecnologies":[
+			"js", "html", "css", "node", "mongo", "react"
+		]
+	},
+	{
+		"name":"Spark3",
+		"description":"Alfred-based application for quick access to tasks",
+		"repo": "https://github.com/alan-palacios/alan-palacios.github.io",
+		"imgSrc": "spark.gif",
+		"page": "",
+		"tecnologies":[
+			"js", "html", "css", "node", "mongo", "react"
+		]
 	}
 ]

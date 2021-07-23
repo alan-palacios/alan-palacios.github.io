@@ -5,7 +5,7 @@ const cloBrace = '}';
 //bg-blue-dark shadow-lg
 function Navbar() {
   return (
-    <div className="select-none sticky top-0   text-gray-light text-1xl  p-4 z-10 bg-gradient-to-b from-blue-dark to-transparent 
+    <div className="select-none fixed top-0 w-full  text-gray-light text-1xl  p-4 z-10 bg-gradient-to-b from-blue-dark to-transparent 
                     md:text-2xl md:p-6">
       <Link to="Home" spy={true} smooth={true}>
         {opBrace} Alan Palacios {cloBrace}
