@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: theme => ({
         'sky-stars': "url('./images/sky-stars.jpg')",
+        'github-icon': "url('./images/github@2x.png')"
        }),
        fontFamily:{
          sans: ["Josefin Sans"]  
@@ -17,10 +18,16 @@ module.exports = {
           light: '#E5E5E5'
         }
       },
+      zIndex:{
+        '-10':'-10',
+        '-20':'-20',
+      }
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      display: ['group-hover'],
+    },
   },
   plugins: [],
 }

@@ -1,0 +1,22 @@
+[
+	{
+		"name":"Spark",
+		"description":"Alfred-based application for quick access to tasks",
+		"repo": "https://github.com/alan-palacios/alan-palacios.github.io",
+		"imgSrc": "spark.gif",
+		"page": "",
+		"tecnologies":[
+			"js", "html", "css", "node", "mongo", "react"
+		]
+	},
+	{
+		"name":"SEIIAE",
+		"description":"This is a example description that will be showed on onHover event of the project card component",
+		"repo": "https://github.com/alan-palacios/alan-palacios.github.io",
+		"imgSrc": "spark.png",
+		"page": "",
+		"tecnologies":[
+			"js", "html", "css", "node", "mongo", "react"
+		]
+	}
+]
