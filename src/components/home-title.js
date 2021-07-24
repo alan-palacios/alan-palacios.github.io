@@ -11,7 +11,7 @@ function HomeTitle() {
         </span>
         <span className="h-20 inline-block  bg-gray-light w-0.5   text-center xl:h-24"></span>
         <span className=" m-auto ml-4 inline-block  font-light">
-          <span className="">Development</span>
+          <span className="">Developer</span>
         </span>
       </div>
     </div>

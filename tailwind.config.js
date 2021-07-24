@@ -23,18 +23,24 @@ module.exports = {
         '-20':'-20',
       },
       transitionProperty:{
-        'width':'width'
+        'width':'width',
+        'drop-shadow': 'drop-shadow',
+        'filter':'filter'
       },
       screens:{
         'media-hover': {'raw': '(hover:hover)'},
         'landscape':  {'raw': '(orientation: landscape)'},
+      },
+      dropShadow:{
+        'white': '0px 0px 5px rgba(200, 200, 200, 1)'
       }
     },
   },
   variants: {
     extend: {
       display: ['group-hover'],
-      width: ['responsive', 'hover']
+      width: ['responsive', 'hover'],
+      dropShadow: ['hover']
     },
   },
   plugins: [],

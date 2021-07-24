@@ -8,10 +8,11 @@ function ProjectCard(props) {
   const renderTechnologies = techReversed.map((tech, index) => {
     const imgRsrc = require(`../images/devicon/${tech}.svg`).default;
     return(
-      <div className="max-w-max absolute inset-0 m-auto flex h-6" key={index}
-              style={{ transform:`rotate(${-angleDif*index -angleOffset}deg) translate(6rem)`}}>
+      <div className="max-w-max absolute inset-0 m-auto flex h-6 translate-y-20" key={index}
+              style={{ transform:`rotate(${-angleDif*index -angleOffset}deg) translate(400%)`}}>
         <img alt={`${tech} icon`} src={imgRsrc} 
-              className="w-6 m-auto transform hover:w-8 transition-width duration-100"
+              className="w-6 m-auto transform filter transition-filter hover:drop-shadow-white  duration-100
+                          md:w-7 "
               style={{ transform:`rotate(${angleDif*index +angleOffset}deg) `}}/>
       </div>
 
@@ -19,7 +20,7 @@ function ProjectCard(props) {
   });
 
   return (
-    <div className="block text-gray-light m-auto group">
+    <div className="block text-gray-light m-auto group font-light">
       <span className="text-2xl block ">{props.name}</span> 
       <div className="rounded-full  flex bg-cover mt-3 w-60 h-60 overflow-hidden
                       md:w-72 md:h-72"
@@ -32,7 +33,7 @@ function ProjectCard(props) {
                       hover:-translate-y-1 transition duration-200 transform"/>
                     </a>
                     {renderTechnologies}
-                    <p className="m-auto mb-0  block p-10 pb-3 align-bottom font-light 
+                    <p className="m-auto mb-0  block p-10 pb-3 align-bottom  
                           md:mb-5 md:text-lg">
                       {props.description}
                     </p>                                

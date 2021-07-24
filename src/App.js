@@ -22,7 +22,7 @@ function App() {
       },
       move:{
         direction:"bottom-right",
-        speed:1,
+        speed:0.5,
         random:true,
         bounce:false,
         straight:true,
@@ -61,7 +61,7 @@ function App() {
         </div>
       </div>
 
-      <div id="Projects" className="flex pt-20 min-h-screen">
+      <div id="Projects" className="flex pt-20  min-h-screen lg:pt-24 2xl:pt-24">
         <Projects />
       </div>
 
