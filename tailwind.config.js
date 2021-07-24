@@ -26,7 +26,8 @@ module.exports = {
         'width':'width'
       },
       screens:{
-        'media-hover': {'raw': '(hover:hover)'}
+        'media-hover': {'raw': '(hover:hover)'},
+        'landscape':  {'raw': '(orientation: landscape)'},
       }
     },
   },

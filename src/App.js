@@ -52,10 +52,11 @@ function App() {
         <div className="absolute inset-0 flex" >
           <HomeTitle/>
         </div>
-        <div className="m-auto mb-10 absolute inset-x-0 bottom-0.5 flex">
+        <div className="m-auto mb-5 absolute inset-x-0 bottom-0.5 flex">
           <div className="m-auto">
-            <ButtonOutline linkTo="Projects"/>
-            <ButtonIcon classes="m-auto p-5" src={arrowDown} linkTo="Projects"/>
+            <ButtonOutline linkTo="Projects" classes="hidden
+                            "/>
+            <ButtonIcon classes="m-auto p-5" src={arrowDown} linkTo="Projects" width="md:w-12"/>
           </div>
         </div>
       </div>

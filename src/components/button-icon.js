@@ -7,7 +7,7 @@ function ButtonIcon(props) {
       return(
         <React.Fragment>
           <a href={props.href} target="_blank" rel="noreferrer">
-            <img src={props.src} alt="icon" className="m-auto w-10 "/>
+            <img src={props.src} alt="icon" className={`m-auto w-10 ${props.width}`}/>
           </a>
         </React.Fragment>
 
@@ -16,7 +16,7 @@ function ButtonIcon(props) {
      return(
         <React.Fragment>
             <Link to={props.linkTo || "/#"} spy={true} smooth={true}>
-              <img src={props.src} alt="icon" className="m-auto w-10 "/>
+              <img src={props.src} alt="icon" className={`m-auto w-10 ${props.width}`}/>
             </Link>
         </React.Fragment>
 
