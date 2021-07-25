@@ -1,38 +1,28 @@
 [
 	{
 		"name":"Spark",
-		"description":"Alfred-based application for quick access to tasks",
-		"repo": "https://github.com/alan-palacios/alan-palacios.github.io",
-		"imgSrc": "spark.gif",
+		"description":"Alfred-alike application for quick access to tasks",
+		"repo": "https://github.com/alan-palacios/Spark",
+		"imgSrc": "spark.mp4",
 		"page": "",
 		"technologies":[
-			"js", "html", "css", "node", "mongo", "react"
+			"js", "html", "css", "electron"
 		]
 	},
 	{
 		"name":"SEIIAE",
-		"description":"This is a example description that will be showed on onHover event of the project card component",
-		"repo": "https://github.com/alan-palacios/alan-palacios.github.io",
-		"imgSrc": "spark.png",
+		"description":"Survey System on the Enrollment Intentions of ESCOM students",
+		"repo": "https://github.com/alan-palacios/Proyecto-TW",
+		"imgSrc": "seiiae.mp4",
 		"page": "",
 		"technologies":[
-			"js", "html", "css"
+			"js", "html", "css", "php", "mysql"
 		]
 	},
 	{
-		"name":"Spark1",
-		"description":"Alfred-based application for quick access to tasks",
-		"repo": "https://github.com/alan-palacios/alan-palacios.github.io",
-		"imgSrc": "spark.gif",
-		"page": "",
-		"technologies":[
-			"js", "html", "css", "node"
-		]
-	},
-	{
-		"name":"Spark2",
-		"description":"Alfred-based application for quick access to tasks",
-		"repo": "https://github.com/alan-palacios/alan-palacios.github.io",
+		"name":"Pinky Cookies",
+		"description":"Web Platform to manage your recipes and discover new ones",
+		"repo": "https://github.com/alan-palacios/pinky-cookies",
 		"imgSrc": "spark.gif",
 		"page": "",
 		"technologies":[
@@ -40,13 +30,103 @@
 		]
 	},
 	{
-		"name":"Spark3",
-		"description":"Alfred-based application for quick access to tasks",
+		"name":"Portfolio",
+		"description":"Source code of this web portfolio",
 		"repo": "https://github.com/alan-palacios/alan-palacios.github.io",
 		"imgSrc": "spark.gif",
 		"page": "",
 		"technologies":[
+			"js", "html", "css", "react", "tailwind"
+		]
+	},
+	{
+		"name":"Procedural Voxel Generation",
+		"description":"Playing around with procedural generation of 3D meshes",
+		"repo": "https://github.com/alan-palacios/Voxel-RPG",
+		"imgSrc": "voxelgeneration.mp4",
+		"page": "",
+		"technologies":[
+			"csharp", "unity", "blender", "illustrator"
+		]
+	},
+	{
+		"name":"Nahualcalli AR",
+		"description":"Mobile app to view AR animations of mexican culture",
+		"repo": "https://github.com/alan-palacios/alan-palacios.github.io",
+		"imgSrc": "nahualcalliar.mp4",
+		"page": "",
+		"technologies":[
+			"csharp", "unity", "blender", "illustrator"
+		]
+	},
+	{
+		"name":"Metheor",
+		"description":"Casual mobile game with procedural generated space ambient",
+		"repo": "https://github.com/alan-palacios/alan-palacios.github.io",
+		"imgSrc": "metheor.mp4",
+		"page": "",
+		"technologies":[
+			"csharp", "unity", "blender", "illustrator"
+		]
+	},
+	{
+		"name":"Maze Solver",
+		"description":"Python program to solve a maze with a given array",
+		"repo": "https://github.com/alan-palacios/Python-Maze-Solver",
+		"imgSrc": "mazesolver.mp4",
+		"page": "",
+		"technologies":[
+			"python"
+		]
+	},
+	{
+		"name":"Wedding Tables Problem",
+		"description":"An approach to solve the wedding seating organization",
+		"repo": "https://github.com/alan-palacios/alan-palacios.github.io",
+		"imgSrc": "wedding.mp4",
+		"page": "",
+		"technologies":[
+			"python"
+		]
+	},
+	{
+		"name":"Vector Plotter",
+		"description":"A desktop app to graph vectors and operations between them",
+		"repo": "https://github.com/alan-palacios/Graficadora",
+		"imgSrc": "vectorplotter.mp4",
+		"page": "",
+		"technologies":[
+			"csharp", "unity"
+		]
+	},
+	{
+		"name":"Trobify",
+		"description":"Web platform to buy and sell real estate",
+		"repo": "https://github.com/renepayan/Trobify-frontend-web",
+		"imgSrc": "spark.gif",
+		"page": "",
+		"technologies":[
 			"js", "html", "css", "node", "mongo", "react"
+		]
+	},
+	{
+		"name":"Color Block",
+		"description":"Casual mobile game with In-App Purchase and Leaderboard",
+		"repo": "https://github.com/alan-palacios/alan-palacios.github.io",
+		"imgSrc": "colorblock.mp4",
+		"page": "",
+		"technologies":[
+			"csharp", "unity", "blender", "illustrator"
+		]
+	},
+	{
+		"name":"Book Administrator",
+		"description":"Desktop app designed with OOP principles in mind",
+		"repo": "https://github.com/renepayan/ProyectoPOO",
+		"imgSrc": "book.mp4",
+		"page": "",
+		"technologies":[
+			"java", "mysql"
 		]
 	}
 ]

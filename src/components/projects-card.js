@@ -22,9 +22,12 @@ function ProjectCard(props) {
   return (
     <div className="block text-gray-light m-auto group font-light">
       <span className="text-2xl block ">{props.name}</span> 
-      <div className="rounded-full  flex bg-cover mt-3 w-60 h-60 overflow-hidden
-                      md:w-72 md:h-72"
-            style={{backgroundImage: `url(${props.src}`}}>
+      <div className="rounded-full  flex bg-cover mt-3 w-60 h-60 overflow-hidden relative
+                      md:w-72 md:h-72">
+              <video autoPlay loop muted  playsInline  className="-z-10 absolute inset-0 max-w-none h-full">
+                <source src={props.src} type="video/mp4"/>
+                Your Browser does not support video tag
+              </video>
               <div className="h-full  bg-blue-dark bg-opacity-70 w-full relative flex 
                     media-hover:hidden
 		                group-hover:flex ">
