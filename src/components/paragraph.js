@@ -1,6 +1,7 @@
 function Paragraph() {
   return (
-    <div className=" block text-left text-gray-light mt-2 text-2xl font-light pr-5">
+    <div className=" block text-left text-gray-light mt-2 text-xl font-light pr-5 
+                 md:text-2xl xl:text-3xl">
       <p>
       I am currently studying Computer Systems Engineering. 
       looking for a job opportunity in web development, video 

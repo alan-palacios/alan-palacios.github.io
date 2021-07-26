@@ -20,23 +20,23 @@
 		]
 	},
 	{
-		"name":"Pinky Cookies",
-		"description":"Web Platform to manage your recipes and discover new ones",
-		"repo": "https://github.com/alan-palacios/pinky-cookies",
-		"imgSrc": "spark.gif",
-		"page": "",
-		"technologies":[
-			"js", "html", "css", "node", "mongo", "react"
-		]
-	},
-	{
 		"name":"Portfolio",
 		"description":"Source code of this web portfolio",
 		"repo": "https://github.com/alan-palacios/alan-palacios.github.io",
-		"imgSrc": "spark.gif",
+		"imgSrc": "portfolio.mp4",
 		"page": "",
 		"technologies":[
 			"js", "html", "css", "react", "tailwind"
+		]
+	},
+	{
+		"name":"Trobify",
+		"description":"Web platform to buy and sell real estate",
+		"repo": "https://github.com/renepayan/Trobify-frontend-web",
+		"imgSrc": "trobify.mp4",
+		"page": "",
+		"technologies":[
+			"js", "html", "css", "node", "mongo", "react"
 		]
 	},
 	{
@@ -52,7 +52,7 @@
 	{
 		"name":"Nahualcalli AR",
 		"description":"Mobile app to view AR animations of mexican culture",
-		"repo": "https://github.com/alan-palacios/alan-palacios.github.io",
+		"repo": "https://github.com/alan-palacios/NahualcalliAR",
 		"imgSrc": "nahualcalliar.mp4",
 		"page": "",
 		"technologies":[
@@ -62,8 +62,18 @@
 	{
 		"name":"Metheor",
 		"description":"Casual mobile game with procedural generated space ambient",
-		"repo": "https://github.com/alan-palacios/alan-palacios.github.io",
+		"repo": "https://github.com/alan-palacios/Metheor",
 		"imgSrc": "metheor.mp4",
+		"page": "",
+		"technologies":[
+			"csharp", "unity", "blender", "illustrator"
+		]
+	},
+	{
+		"name":"Color Block",
+		"description":"Casual mobile game with In-App Purchase and Leaderboard",
+		"repo": "https://github.com/alan-palacios/ColorBlock",
+		"imgSrc": "colorblock.mp4",
 		"page": "",
 		"technologies":[
 			"csharp", "unity", "blender", "illustrator"
@@ -82,7 +92,7 @@
 	{
 		"name":"Wedding Tables Problem",
 		"description":"An approach to solve the wedding seating organization",
-		"repo": "https://github.com/alan-palacios/alan-palacios.github.io",
+		"repo": "https://github.com/alan-palacios/Wedding-Seating-Problem",
 		"imgSrc": "wedding.mp4",
 		"page": "",
 		"technologies":[
@@ -97,26 +107,6 @@
 		"page": "",
 		"technologies":[
 			"csharp", "unity"
-		]
-	},
-	{
-		"name":"Trobify",
-		"description":"Web platform to buy and sell real estate",
-		"repo": "https://github.com/renepayan/Trobify-frontend-web",
-		"imgSrc": "spark.gif",
-		"page": "",
-		"technologies":[
-			"js", "html", "css", "node", "mongo", "react"
-		]
-	},
-	{
-		"name":"Color Block",
-		"description":"Casual mobile game with In-App Purchase and Leaderboard",
-		"repo": "https://github.com/alan-palacios/alan-palacios.github.io",
-		"imgSrc": "colorblock.mp4",
-		"page": "",
-		"technologies":[
-			"csharp", "unity", "blender", "illustrator"
 		]
 	},
 	{

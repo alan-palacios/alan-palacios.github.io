@@ -65,7 +65,7 @@ function App() {
         <Projects />
       </div>
 
-      <div id="Contact" className="flex pt-20 min-h-screen relative">
+      <div id="Contact" className="flex pt-20 min-h-screen relative lg:pt-24 2xl:pt-24">
         <Contact/>
         <div className="absolute bottom-0 inset-x-0 pb-5">
           <Footer/>

@@ -9,7 +9,7 @@ function Projects() {
   });
 
   return (
-    <div className=" block text-center align-middle text-gray-light m-auto">
+    <div className=" block text-center align-middle text-gray-light m-auto p-5">
       <span className="text-4xl block sm:text-left md:text-5xl">Projects</span> 
       <div className="mt-20 grid grid-cols-1 gap-20  p-30
                       sm:grid-cols-2 sm:gap-24

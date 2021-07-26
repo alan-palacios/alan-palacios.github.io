@@ -22,7 +22,7 @@ function ProjectCard(props) {
   return (
     <div className="block text-gray-light m-auto group font-light">
       <span className="text-2xl block ">{props.name}</span> 
-      <div className="rounded-full  flex bg-cover mt-3 w-60 h-60 overflow-hidden relative
+      <div className="rounded-full m-auto flex bg-cover mt-3 w-60 h-60 overflow-hidden relative
                       md:w-72 md:h-72">
               <video autoPlay loop muted  playsInline  className="-z-10 absolute inset-0 max-w-none h-full">
                 <source src={props.src} type="video/mp4"/>
@@ -32,15 +32,19 @@ function ProjectCard(props) {
                     media-hover:hidden
 		                group-hover:flex ">
                     <a href={props.repo} target="_blank" rel="noreferrer">
-                      <img alt="github repo" src={githubIcon} className="absolute inset-0 m-auto
+                      <img alt="github repo" src={githubIcon} className="absolute inset-x-0 top-16 m-auto w-12
+                      md:top-20 md:w-14
                       hover:-translate-y-1 transition duration-200 transform"/>
                     </a>
                     {renderTechnologies}
-                    <p className="m-auto mb-0  block p-10 pb-3 align-bottom  
-                          md:mb-5 md:text-lg">
-                      {props.description}
-                    </p>                                
-
+                    <div className="flex mt-28  py-5 px-12 h-32 max-h-32
+                                    md:mt-32 md:h-36 md:max-h-36
+                                    xl:px-10">
+                      <p className="m-auto   
+                            md:text-lg lg:text-xl">
+                        {props.description}
+                      </p>
+                    </div>
               </div>
       </div>
     </div>
