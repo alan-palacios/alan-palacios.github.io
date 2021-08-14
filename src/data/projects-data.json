@@ -32,7 +32,7 @@
 	{
 		"name":"Trobify",
 		"description":"Web platform to buy and sell real estate",
-		"repo": "https://github.com/renepayan/Trobify-frontend-web",
+		"repo": "https://github.com/alan-palacios/Trobify-backend-web",
 		"imgSrc": "trobify.mp4",
 		"page": "",
 		"technologies":[
@@ -112,7 +112,7 @@
 	{
 		"name":"Book Administrator",
 		"description":"Desktop app designed with OOP principles in mind",
-		"repo": "https://github.com/renepayan/ProyectoPOO",
+		"repo": "https://github.com/alan-palacios/ProyectoPOO",
 		"imgSrc": "book.mp4",
 		"page": "",
 		"technologies":[

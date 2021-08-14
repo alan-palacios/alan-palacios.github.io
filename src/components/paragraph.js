@@ -6,8 +6,8 @@ function Paragraph() {
       I am currently studying Computer Systems Engineering. 
       looking for a job opportunity in web development, video 
       game development or design. Feel free to contact me on any 
-      social network or by email at&nbsp; 
-      <a href="mailto:apyolt@gmail.com" className="text-blue-300">apyolt@gmail.com</a>
+      social network or by&nbsp;
+      <a href="mailto:apyolt@gmail.com" className="text-blue-300">email.</a>&nbsp;
       </p>
     </div>
   );
