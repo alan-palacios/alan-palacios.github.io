@@ -101,6 +101,26 @@
 		]
 	},
 	{
+		"name":"Maze Solver",
+		"description":"Python program to solve a maze with a given array",
+		"repo": "https://github.com/alan-palacios/Python-Maze-Solver",
+		"imgSrc": "mazesolver.mp4",
+		"page": "",
+		"technologies":[
+			"python"
+		]
+	},
+	{
+		"name":"Wedding Tables Problem",
+		"description":"An approach to solve the wedding seating organization",
+		"repo": "https://github.com/alan-palacios/Wedding-Seating-Problem",
+		"imgSrc": "wedding.mp4",
+		"page": "",
+		"technologies":[
+			"python"
+		]
+	},
+	{
 		"name":"Vector Plotter",
 		"description":"A desktop app to graph vectors and operations between them",
 		"repo": "https://github.com/alan-palacios/Graficadora",
