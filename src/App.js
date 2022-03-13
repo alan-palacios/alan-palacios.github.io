@@ -8,6 +8,7 @@ import Footer from './components/footer';
 import HomeTitle from './components/home-title';
 import Navbar from './components/navbar';
 import Projects from './components/projects';
+import Work from './components/work';
 import arrowDown from './images/arrow-down.png';
 
 function App() {
@@ -56,9 +57,13 @@ function App() {
           <div className="m-auto">
             <ButtonOutline linkTo="Projects" classes="hidden
                             "/>
-            <ButtonIcon classes="m-auto p-5" src={arrowDown} linkTo="Projects" width="md:w-12"/>
+            <ButtonIcon classes="m-auto p-5" src={arrowDown} linkTo="Work" width="md:w-12"/>
           </div>
         </div>
+      </div>
+
+      <div id="Work" className="flex pt-20  lg:pt-24 2xl:pt-24">
+        <Work />
       </div>
 
       <div id="Projects" className="flex pt-20  min-h-screen lg:pt-24 2xl:pt-24">

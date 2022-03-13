@@ -1,0 +1,27 @@
+[
+	{
+		"name":"Hatchy Pocket",
+		"description":"The main website of Hatchy Pocket NFTs collection",
+		"imgSrc": "hatchy.mp4",
+		"technologies":[
+			"nextjs", "react", "tailwind", "typescript"
+		]
+	},
+	{
+		"name":"Crypto Seals",
+		"description":"A website where you can interact with the CryptoSeals gamified NFTs",
+		"imgSrc": "cryptoseals.mp4",
+		"page": "https://cryptoseals.art/",
+		"technologies":[
+			"nextjs", "react", "tailwind"
+		]
+	},
+	{
+		"name":"Pico Wallet",
+		"description":"Mobile App to interact with Pico token",
+		"imgSrc": "picowallet.mp4",
+		"technologies":[
+			"react", "tailwind", "typescript"
+		]
+	}
+]

@@ -20,29 +20,46 @@ function ProjectCard(props) {
   });
 
   const renderLinks = ()=>{
-    if (props.page==="") {
-      return (
-        <a href={props.repo} target="_blank" rel="noreferrer">
-          <Icon icon="carbon:logo-github" style={{ fontSize: '64px' }} className="absolute inset-x-0 top-16 m-auto w-12
-              md:top-20 md:w-14
-              hover:-translate-y-1 transition duration-200 transform" />
-        </a>)
-    } else {
        return (
          <div className="absolute inset-x-0 top-20 m-auto md:top-24">
-            <a href={props.repo} target="_blank" rel="noreferrer" className="m-auto inline-block mr-3">
-              <Icon icon="carbon:logo-github" style={{ fontSize: '50px' }} className="w-10 md:w-14
-                  hover:-translate-y-1 transition duration-200 transform" />
-            </a>
-            <a href={props.page} target="_blank" rel="noreferrer" className="m-auto inline-block ml-3">
-              <Icon icon="carbon:launch" style={{ fontSize: '50px' }} className="w-10 md:w-14
-                  hover:-translate-y-1 transition duration-200 transform" />
-            </a>
+            {props.repo && 
+              <a href={props.repo} target="_blank" rel="noreferrer" className="m-auto inline-block mr-3">
+                <Icon icon="carbon:logo-github" style={{ fontSize: '50px' }} className="w-10 md:w-14
+                    hover:-translate-y-1 transition duration-200 transform" />
+              </a>
+            }
+            {props.page && 
+              <a href={props.page} target="_blank" rel="noreferrer" className="m-auto inline-block ml-3">
+                <Icon icon="carbon:launch" style={{ fontSize: '50px' }} className="w-10 md:w-14
+                    hover:-translate-y-1 transition duration-200 transform" />
+              </a>
+            }
          </div>
         )     
-    }
   }
 
+  const renderDesc= ()=>{
+    if(props.page || props.repo){
+      return <div className={`flex mt-28  py-5 px-12 h-32 max-h-32
+                      md:mt-32 md:h-36 md:max-h-36
+                      xl:px-10`}>
+        <p className="m-auto   
+              md:text-lg lg:text-xl">
+          {props.description}
+        </p>
+      </div>
+    }else{
+      return <div className={`flex m-auto pt-5 px-12 h-32 max-h-32
+                      md:h-36 md:max-h-36
+                      xl:px-10`}>
+        <p className="m-auto   
+              md:text-lg lg:text-xl">
+          {props.description}
+        </p>
+      </div>
+
+    }
+  }
   return (
     <div className="block text-gray-light m-auto group font-light">
       <span className="text-2xl block ">{props.name}</span> 
@@ -57,14 +74,7 @@ function ProjectCard(props) {
 		                group-hover:flex ">
                     {renderLinks()}
                     {renderTechnologies}
-                    <div className="flex mt-28  py-5 px-12 h-32 max-h-32
-                                    md:mt-32 md:h-36 md:max-h-36
-                                    xl:px-10">
-                      <p className="m-auto   
-                            md:text-lg lg:text-xl">
-                        {props.description}
-                      </p>
-                    </div>
+                    {renderDesc()}
               </div>
       </div>
     </div>

@@ -1,6 +1,16 @@
 [
 	{
-		"name":"Basic Todo List App",
+		"name":"Green Calculator",
+		"description":"Hackathon BBVA 2021 Winner team of Green Calculator challenge",
+		"repo": "https://github.com/RiqTam/Calculadora-verde",
+		"imgSrc": "greencalc.mp4",
+		"page": "",
+		"technologies":[
+			"js", "html", "css", "react", "tailwind", "node", "mongo"
+		]
+	},
+	{
+		"name":"Todo List App",
 		"description":"A To do List App with basic CRUD functionality.",
 		"repo": "https://github.com/alan-palacios/TodoList",
 		"imgSrc": "todolist.mp4",
@@ -112,12 +122,35 @@
 	},
 	{
 		"name":"Book Administrator",
+		"hide": true,
 		"description":"Desktop app designed with OOP principles in mind",
 		"repo": "https://github.com/alan-palacios/ProyectoPOO",
 		"imgSrc": "book.mp4",
 		"page": "",
 		"technologies":[
 			"java", "mysql"
+		]
+	},
+	{
+		"name":"Maze Solver",
+		"hide": true,
+		"description":"Python program to solve a maze with a given array",
+		"repo": "https://github.com/alan-palacios/Python-Maze-Solver",
+		"imgSrc": "mazesolver.mp4",
+		"page": "",
+		"technologies":[
+			"python"
+		]
+	},
+	{
+		"name":"Wedding Tables Problem",
+		"hide": true,
+		"description":"An approach to solve the wedding seating organization",
+		"repo": "https://github.com/alan-palacios/Wedding-Seating-Problem",
+		"imgSrc": "wedding.mp4",
+		"page": "",
+		"technologies":[
+			"python"
 		]
 	}
 ]
